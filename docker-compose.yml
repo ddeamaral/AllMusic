@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  allmusic.account.api:
+    image: allmusic.account.api
+    build:
+      context: ./AllMusic.Account.API
+      dockerfile: Dockerfile
