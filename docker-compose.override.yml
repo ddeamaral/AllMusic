@@ -6,7 +6,20 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
+  allmusic.stream.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+  allmusic.lyrics.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
 networks:
   default:
     external:
       name: nat
+
+
+

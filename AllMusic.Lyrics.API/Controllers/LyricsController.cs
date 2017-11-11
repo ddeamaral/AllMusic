@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AllMusic.Account.API.Controllers
+namespace AllMusic.Lyrics.API.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class LyricsController : Controller
     {
         // GET api/values
         [HttpGet]

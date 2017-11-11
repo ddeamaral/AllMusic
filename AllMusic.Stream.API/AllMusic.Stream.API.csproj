@@ -3,24 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
-    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="**/*.cs " />
-  </ItemGroup>
-
-  <!--<ItemGroup>
-    <Compile Remove="Controllers\AccountController.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Controllers\AccountController.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Controllers\AccountsController.cs" />
-  </ItemGroup>-->
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -33,7 +16,5 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
-
-  
 
 </Project>

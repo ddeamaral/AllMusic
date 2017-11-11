@@ -6,3 +6,15 @@ services:
     build:
       context: ./AllMusic.Account.API
       dockerfile: Dockerfile
+
+  allmusic.lyrics.api:
+    image: allmusic.lyrics.api
+    build:
+      context: ./AllMusic.Lyrics.API
+      dockerfile: Dockerfile
+
+  allmusic.stream.api:
+    image: allmusic.stream.api
+    build:
+      context: ./AllMusic.Stream.API
+      dockerfile: Dockerfile

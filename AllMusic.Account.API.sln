@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Account.API", "All
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{55BDE314-DAD2-490F-BE1D-915149416908}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Lyrics.API", "AllMusic.Lyrics.API\AllMusic.Lyrics.API.csproj", "{F9BC4DD7-203A-416C-A067-22682444AA80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Stream.API", "AllMusic.Stream.API\AllMusic.Stream.API.csproj", "{617E2970-719E-4E5C-9145-8A0C9640A753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{55BDE314-DAD2-490F-BE1D-915149416908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55BDE314-DAD2-490F-BE1D-915149416908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55BDE314-DAD2-490F-BE1D-915149416908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BC4DD7-203A-416C-A067-22682444AA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BC4DD7-203A-416C-A067-22682444AA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BC4DD7-203A-416C-A067-22682444AA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BC4DD7-203A-416C-A067-22682444AA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617E2970-719E-4E5C-9145-8A0C9640A753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617E2970-719E-4E5C-9145-8A0C9640A753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617E2970-719E-4E5C-9145-8A0C9640A753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617E2970-719E-4E5C-9145-8A0C9640A753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
