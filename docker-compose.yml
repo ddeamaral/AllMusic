@@ -18,3 +18,9 @@ services:
     build:
       context: ./AllMusic.Stream.API
       dockerfile: Dockerfile
+
+  allmusic.gateway.api:
+    image: allmusic.gateway.api
+    build:
+      context: ./AllMusic.Gateway.API
+      dockerfile: Dockerfile

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Account.API", "AllMusic.Account.API\AllMusic.Account.API.csproj", "{E5F62952-1BED-4412-B0CD-B6B65D809006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllMusic.Account.API", "AllMusic.Account.API\AllMusic.Account.API.csproj", "{E5F62952-1BED-4412-B0CD-B6B65D809006}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{55BDE314-DAD2-490F-BE1D-915149416908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Lyrics.API", "AllMusic.Lyrics.API\AllMusic.Lyrics.API.csproj", "{F9BC4DD7-203A-416C-A067-22682444AA80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllMusic.Lyrics.API", "AllMusic.Lyrics.API\AllMusic.Lyrics.API.csproj", "{F9BC4DD7-203A-416C-A067-22682444AA80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Stream.API", "AllMusic.Stream.API\AllMusic.Stream.API.csproj", "{617E2970-719E-4E5C-9145-8A0C9640A753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllMusic.Stream.API", "AllMusic.Stream.API\AllMusic.Stream.API.csproj", "{617E2970-719E-4E5C-9145-8A0C9640A753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllMusic.Gateway.API", "AllMusic.Gateway.API\AllMusic.Gateway.API.csproj", "{065C27FE-A237-4043-A87F-384E09460E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{617E2970-719E-4E5C-9145-8A0C9640A753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{617E2970-719E-4E5C-9145-8A0C9640A753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617E2970-719E-4E5C-9145-8A0C9640A753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065C27FE-A237-4043-A87F-384E09460E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065C27FE-A237-4043-A87F-384E09460E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065C27FE-A237-4043-A87F-384E09460E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065C27FE-A237-4043-A87F-384E09460E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

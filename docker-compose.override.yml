@@ -16,10 +16,16 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
+  allmusic.gateway.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
 networks:
   default:
     external:
       name: nat
+
 
 
 

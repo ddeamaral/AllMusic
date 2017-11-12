@@ -5,7 +5,7 @@
     <DockerTargetOS>Windows</DockerTargetOS>
     <ProjectGuid>55bde314-dad2-490f-be1d-915149416908</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>http://{ServiceIPAddress}/api/values</DockerServiceUrl>
+    <DockerServiceUrl>http://{ServiceIPAddress}/api/accounts</DockerServiceUrl>
     <DockerServiceName>allmusic.account.api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
